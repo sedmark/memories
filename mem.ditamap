@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap id="ogbook" xml:lang="ru">
+  <booktitle>
+    <mainbooktitle/>
+  </booktitle>
+  <bookmeta>
+    <shortdesc>Записки по памяти</shortdesc>
+    <author type="creator">Дмитрий Аркадьев</author>
+    <authorinformation>
+      <personinfo>
+        <contactnumbers>
+          <contactnumber>vk.com/sedmark</contactnumber>
+        </contactnumbers>
+      </personinfo>
+    </authorinformation>
+    <publisherinformation>
+      <organization>САМИЗДАТ</organization>
+      <published>
+        <completed>
+          <year>2026</year>
+        </completed>
+      </published>
+    </publisherinformation>
+    <critdates>
+      <created date="2026-10-18"/>
+      <revised modified="2026-10-18"/>
+    </critdates>
+    <prodinfo>
+      <prodname>mem</prodname>
+      <vrmlist>
+        <vrm version="1.0"/>
+      </vrmlist>
+    </prodinfo>
+    <bookrights>
+      <copyrfirst>
+        <year>2026</year>
+      </copyrfirst>
+      <bookowner>
+        <person>Дмитрий Аркадьев</person>
+      </bookowner>
+    </bookrights>
+  </bookmeta>
+  <frontmatter>
+    <topicref href="ch00/mem-ch00-copyright.dita" toc="no"/>
+    <booklists>
+      <toc/>
+    </booklists>
+    <preface>
+      <topicref href="ch00/mem-ch00-intro.dita"/>
+    </preface>
+    <keydef keys="topic_pagebreak" href="common/pagebreak.dita"/>
+    <keydef keys="topic_onpage" href="common/onpage.dita" chunk="select-topic"/>
+  </frontmatter>
+  <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle=""/>
+</bookmap>
