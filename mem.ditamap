@@ -53,4 +53,5 @@
     <keydef keys="topic_onpage" href="common/onpage.dita" chunk="select-topic"/>
   </frontmatter>
   <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle=""/>
+  <chapter href="ch02/mem-ch02.ditamap" format="ditamap" navtitle=""/>
 </bookmap>
