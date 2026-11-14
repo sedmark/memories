@@ -9,5 +9,6 @@ call %DITA_DIR%set_classpath.bat
 echo %JAVA_HOME%
 java -version
 
-ant -S -l log.txt pdf
+rem ant -S -l log.txt pdf
+ant -S -l log.txt %1
 

@@ -1,4 +1,4 @@
-<project name="OG" default="boots" basedir=".">
+<project name="MEM" default="boots" basedir=".">
 		<property environment="env"/>
     <property name="ditadir" location="${env.DITA_DIR}"/>
     <target name="simple">
@@ -6,7 +6,7 @@
             <property name="args.input" value="mem.ditamap"/>
             <property name="transtype" value="html5-bootstrap"/>
             <property name="bootstrap.theme" value="united"/>
-            <property name="args.hdr" value="css/og.hdr.navbar.xml"/>
+            <property name="args.hdr" value="css/mem.hdr.navbar.xml"/>
             <property name="output.dir" value="${basedir}/out"/>
             <property name="args.filter" value="mem.ditaval"/>
             <property name="nav-toc" value="full"/>
@@ -21,7 +21,7 @@
             <property name="format" value="html5-bootstrap"/>
             <property name="transtype" value="html5-bootstrap"/>
             <property name="bootstrap.theme" value="united"/>
-            <property name="args.hdr" value="${basedir}/css/og.hdr.navbar.lunr.xml"/>
+            <property name="args.hdr" value="${basedir}/css/mem.hdr.navbar.lunr.xml"/>
             <property name="args.filter" value="mem_html.ditaval"/>
             <property name="output.dir" value="${basedir}/out"/>                             
 				    <property name="default.language" value="ru"/>
