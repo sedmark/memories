@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="mem-steeplechase" xml:lang="ru">
+  <title><text id="title">Стипль-чез</text></title>
+  <titlealts>
+    <navtitle><text conref="#./title"/></navtitle>
+  </titlealts>
+  <shortdesc></shortdesc>
+  <conbody>
+    <!--
+      Дядя Толя.
+      Нет, он майор!
+      Бег.
+    -->
+    <p conref="../common/mem-under-construction.dita#mem-under-construction/p_substitution"/>
+  </conbody>
+</concept>

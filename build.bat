@@ -10,5 +10,5 @@ echo %JAVA_HOME%
 java -version
 
 rem ant -S -l log.txt pdf
-ant -S -l log.txt %1
+ant -l log.txt %1
 

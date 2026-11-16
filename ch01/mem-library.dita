@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="mem-library" xml:lang="ru">
+  <title><text id="title">Книжный сарай</text></title>
+  <titlealts>
+    <navtitle><text conref="#./title"/></navtitle>
+  </titlealts>
+  <shortdesc></shortdesc>
+  <conbody>
+    <!--
+      Инфоголод в СССР. 
+      Дефицит книг.
+      Сарай-дворец
+      Перельман.
+      Логарифмическая линейка.
+      Умножение.
+      Институт.
+    -->
+    <p conref="../common/mem-under-construction.dita#mem-under-construction/p_substitution"/>
+  </conbody>
+</concept>

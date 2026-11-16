@@ -2,23 +2,23 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap id="ogbook" xml:lang="ru">
   <booktitle>
-    <mainbooktitle><text id="text_title">Ямбаковские записки</text></mainbooktitle>
+    <mainbooktitle><text id="text_title">Зарисовки детства</text></mainbooktitle>
   </booktitle>
   <bookmeta>
-    <shortdesc>Из жизни отдыхающего советского школьника</shortdesc>
-    <author type="creator">Димитрий Аркадьев</author>
+    <shortdesc><text id="text_shotdesc">Из жизни советского школьника</text></shortdesc>
+    <author type="creator"><text id="text_author">Димитрий Аркадьев</text></author>
     <authorinformation>
       <personinfo>
         <contactnumbers>
-          <contactnumber>vk.com/sedmark</contactnumber>
+          <contactnumber><text id="text_contactnumber">vk.com/sedmark</text></contactnumber>
         </contactnumbers>
       </personinfo>
     </authorinformation>
     <publisherinformation>
-      <organization>САМИЗДАТ</organization>
+      <organization><text id="text_organization">САМИЗДАТ</text></organization>
       <published>
         <completed>
-          <year>2026</year>
+          <year><text id="text_published">2026</text></year>
         </completed>
       </published>
     </publisherinformation>
@@ -44,6 +44,6 @@
     <keydef keys="topic_pagebreak" href="common/pagebreak.dita"/>
     <keydef keys="topic_onpage" href="common/onpage.dita" chunk="select-topic"/>
   </frontmatter>
-  <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle="Часть первая"/>
+  <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle="Из жизни ямбаковских"/>
   <!--chapter href="ch02/mem-ch02.ditamap" format="ditamap" navtitle=""/-->
 </bookmap>

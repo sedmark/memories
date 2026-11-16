@@ -25,7 +25,7 @@
             <property name="args.filter" value="mem_html.ditaval"/>
             <property name="output.dir" value="${basedir}/out"/>                             
 		    <property name="default.language" value="ru"/>
-            <property name="customization.dir" value="PluginCustom.html"/>
+            <property name="variable.file.url" value="file:/C:/Work/MyGit/memories/strings.properties"/>
 
             <property name="offline.mode" value="no"/>
             <property name="lunr.support.include" value="yes"/>

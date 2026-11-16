@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-<bookmap id="ogbook" xml:lang="ru"  collection-type="sequence">
+<bookmap id="ogbook" xml:lang="ru" collection-type="sequence">
   <booktitle>
-    <mainbooktitle><text id="text_title">Дорогой лытдыбр</text></mainbooktitle>
+    <mainbooktitle><text id="text_title" conref="mem.ditamap#text_title"/></mainbooktitle>
   </booktitle>
   <bookmeta>
-    <shortdesc>Записки советского школьника</shortdesc>
-    <author type="creator">Димитрий Аркадьев</author>
+    <shortdesc><text id="text_shotdesc" conref="mem.ditamap#text_shotdesc"/></shortdesc>
+    <author type="creator"><text id="text_author" conref="mem.ditamap#text_author"/></author>
     <authorinformation>
       <personinfo>
         <contactnumbers>
-          <contactnumber>vk.com/sedmark</contactnumber>
+          <contactnumber><text id="text_contactnumber" conref="mem.ditamap#text_contactnumber"/></contactnumber>
         </contactnumbers>
       </personinfo>
     </authorinformation>
     <publisherinformation>
-      <organization>САМИЗДАТ</organization>
+      <organization><text id="text_organization" conref="mem.ditamap#text_organization"/></organization>
       <published>
         <completed>
-          <year>2026</year>
+          <year><text id="text_published" conref="mem.ditamap#text_published"/></year>
         </completed>
       </published>
     </publisherinformation>

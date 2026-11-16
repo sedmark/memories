@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is part of the DITA Open Toolkit project.
+
+Copyright 2004, 2005 IBM Corporation
+
+See the accompanying LICENSE file for applicable license.
+-->
+<?xml-model href="strings.rnc" type="application/relax-ng-compact-syntax"?>
+<variables>
+   <variable id="Next topic">Следующая тема!</variable>
+   <!--variable id="Previous topic">Предыдущая тема!</variable-->
+   <variable id="Parent topic">На уровень выше!</variable>
+</variables>

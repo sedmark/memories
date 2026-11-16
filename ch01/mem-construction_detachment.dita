@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="mem-construction_detachment" xml:lang="ru">
+  <title><text id="title">Яростный стройотряд</text></title>
+  <titlealts>
+    <navtitle><text conref="#./title"/></navtitle>
+  </titlealts>
+  <shortdesc></shortdesc>
+  <conbody>
+    <!--
+      Тетя Люда.
+      Чаще всех.
+      Стройтряд.
+      Баня.
+      Кустарные бизнес-идеи.
+    -->
+    <p conref="../common/mem-under-construction.dita#mem-under-construction/p_substitution"/>
+  </conbody>
+</concept>

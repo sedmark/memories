@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="mem-whathesaid" xml:lang="ru">
+  <title><text id="title">Он так и сказал</text></title>
+  <titlealts>
+    <navtitle><text conref="#./title"/></navtitle>
+  </titlealts>
+  <shortdesc></shortdesc>
+  <conbody>
+    <!--
+      Атеисты-коммунисты.
+      Перестройка.
+      Спитакское землетрясение.
+      Телевизор и бабушка.
+      Горбачев.
+    -->
+    <p conref="../common/mem-under-construction.dita#mem-under-construction/p_substitution"/>
+  </conbody>
+</concept>
