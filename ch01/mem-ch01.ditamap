@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map id="map01" xml:lang="ru">
-	<topicref href="combine_taxi.dita" navtitle="Комбайн-такси"/>
+<map id="map01" xml:lang="ru" collection-type="sequence">
+    <topicref href="../ch00/mem-ch00-intro.dita" navtitle="Ямбаково"/>
+    <topicref href="combine_taxi.dita" navtitle="Комбайн-такси"/>
     <topicref href="watchmaker.dita" navtitle="Часовых дел мастер"/>
     <!--
     <topicref href="myGod.dita" navtitle="Боже мой"/>

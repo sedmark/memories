@@ -1,0 +1,9 @@
+﻿*.bat
+build.*
+*.cmd
+*.fo
+*.docx
+log.txt
+temp/
+out/
+src/

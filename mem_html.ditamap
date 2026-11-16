@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-<bookmap id="ogbook" xml:lang="ru">
+<bookmap id="ogbook" xml:lang="ru"  collection-type="sequence">
   <booktitle>
-    <mainbooktitle><text id="text_title">Ямбаковские записки</text></mainbooktitle>
+    <mainbooktitle><text id="text_title">Дорогой лытдыбр</text></mainbooktitle>
   </booktitle>
   <bookmeta>
-    <shortdesc>Из жизни отдыхающего советского школьника</shortdesc>
+    <shortdesc>Записки советского школьника</shortdesc>
     <author type="creator">Димитрий Аркадьев</author>
     <authorinformation>
       <personinfo>
@@ -34,16 +34,14 @@
     </prodinfo>
   </bookmeta>
   <frontmatter>
-    <!--topicref href="ch00/mem-ch00-copyright.dita" toc="no"/-->
     <booklists>
       <toc/>
     </booklists>
     <preface>
-      <topicref href="ch00/mem-ch00-intro.dita" navtitle="Пролог"/>
     </preface>
     <keydef keys="topic_pagebreak" href="common/pagebreak.dita"/>
     <keydef keys="topic_onpage" href="common/onpage.dita" chunk="select-topic"/>
   </frontmatter>
-  <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle="Часть первая"/>
   <!--chapter href="ch02/mem-ch02.ditamap" format="ditamap" navtitle=""/-->
+  <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle="Ямбаковские записки"/>
 </bookmap>

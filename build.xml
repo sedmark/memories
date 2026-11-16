@@ -24,7 +24,8 @@
             <property name="args.hdr" value="${basedir}/css/mem.hdr.navbar.lunr.xml"/>
             <property name="args.filter" value="mem_html.ditaval"/>
             <property name="output.dir" value="${basedir}/out"/>                             
-				    <property name="default.language" value="ru"/>
+		    <property name="default.language" value="ru"/>
+            <property name="customization.dir" value="PluginCustom.html"/>
 
             <property name="offline.mode" value="no"/>
             <property name="lunr.support.include" value="yes"/>
