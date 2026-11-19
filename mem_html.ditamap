@@ -38,6 +38,7 @@
       <toc/>
     </booklists>
     <preface>
+      <topicref href="ch00/mem-ch00-intro.dita" navtitle="Пролог" toc="yes"/>
     </preface>
     <keydef keys="topic_pagebreak" href="common/pagebreak.dita"/>
     <keydef keys="topic_onpage" href="common/onpage.dita" chunk="select-topic"/>
