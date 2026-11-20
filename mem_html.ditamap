@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap id="ogbook" xml:lang="ru" collection-type="sequence">
   <booktitle>
-    <mainbooktitle><text id="text_title" conref="mem.ditamap#text_title"/></mainbooktitle>
+    <mainbooktitle><text conref="#text_author"/>. <text id="text_title" conref="mem.ditamap#text_title"/></mainbooktitle>
   </booktitle>
   <bookmeta>
     <shortdesc><text id="text_shotdesc" conref="mem.ditamap#text_shotdesc"/></shortdesc>
@@ -44,5 +44,5 @@
     <keydef keys="topic_onpage" href="common/onpage.dita" chunk="select-topic"/>
   </frontmatter>
   <!--chapter href="ch02/mem-ch02.ditamap" format="ditamap" navtitle=""/-->
-  <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle="Ямбаковские записки"/>
+  <chapter href="ch01/mem-ch01.ditamap" format="ditamap" navtitle="Ямбаковские зарисовки"/>
 </bookmap>
