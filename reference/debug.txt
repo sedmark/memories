@@ -1,0 +1,52 @@
+fetch('https://sedmark.github.io/memories/js/search_index.json')
+  .then(r => r.json())
+  .then(data => {
+    console.log('Количество документов:', data.documents.length);
+    console.log('Первый документ:', data.documents);
+  });
+
+fetch('../js/search_index.json')
+  .then(r => r.json())
+  .then(data => {
+    console.log('Первый документ:', data.documents);
+  });
+
+
+const results = r.search('жим');
+console.log('Результаты поиска:', results);
+
+fetch('https://sedmark.github.io/memories/js/search_index.json')
+  .then(r => {
+    console.log('HTTP статус:', r.status);
+    return r.text();
+  })
+  .then(txt => {
+    console.log('Первые 500 символов файла:', txt.slice(0, 500));
+    try {
+      const data = JSON.parse(txt);
+      console.log('Тип распарсенного:', Array.isArray(data) ? 'массив' : typeof data);
+      console.log('Ключи верхнего уровня:', Array.isArray(data) ? '(массив)' : Object.keys(data));
+    } catch (e) {
+      console.error('Это не валидный JSON:', e.message);
+    }
+
+    const idx = lunr.Index.load(data);
+    const results = idx.search('велик');
+    console.log('Результаты поиска:', results);
+  });
+
+
+Это сериализованный индекс Lunr, а не список документов. Тогда проверка проста: const idx = lunr.Index.load(data); idx.search('слово') — если вернулись результаты, индекс работает
+
+fetch('https://sedmark.github.io/memories/js/search_index.json')
+  .then(r => r.json())          // или JSON.parse(txt), если брали через r.text()
+  .then(data => {
+    console.log('Ключи:', Object.keys(data));
+    // должны быть примерно такие: version, fields, invertedIndex, pipeline, documentStore
+
+    const idx = lunr.Index.load(data);
+
+    const results = idx.search('велик');
+    console.log('Результаты поиска:', results);
+  });
+

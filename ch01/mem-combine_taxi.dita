@@ -5,9 +5,9 @@
   <titlealts>
     <navtitle><text conref="#./title"/></navtitle>
   </titlealts>
-  <shortdesc><image href="img/sk4.gif" width="600" deliveryTarget="html"/><image href="img/sk4.gif"
-      width="300" deliveryTarget="pdf"/></shortdesc>
   <conbody>
+    <image href="img/sk4.gif" width="600" deliveryTarget="html"/><image href="img/sk4.gif"
+      width="300" deliveryTarget="pdf"/>
     <p>Эта история случилась после сильного летнего ливня, который застал меня, пацана лет
       двенадцати, в центре Малыклы, куда я приехал на велосипеде за какой-то надобностью. Переждав в
       магазине довольно продолжительный дождь, я поехал обратно домой, неторопливо крутя педали по
