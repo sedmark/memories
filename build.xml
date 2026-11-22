@@ -24,8 +24,8 @@
             <property name="args.hdr" value="${basedir}/css/mem.hdr.navbar.lunr.xml"/>
             <property name="args.filter" value="mem_html.ditaval"/>
             <property name="output.dir" value="${basedir}/out"/>                             
-		    <property name="default.language" value="ru"/>
-            <property name="variable.file.url" value="file:/C:/Work/MyGit/memories/strings.properties"/>
+            <property name="default.language" value="ru"/>
+            <!--2del property name="variable.file.url" value="file:/C:/Work/MyGit/memories/strings.properties"/-->
 
             <property name="offline.mode" value="no"/>
             <property name="lunr.support.include" value="yes"/>
@@ -34,7 +34,7 @@
             <property name="args.favicon" value="${basedir}/images/favicon.svg"/>
             <property name="nav-toc" value="full"/>
             <property name="args.rellinks" value="all"/>
-            <property name="clean.temp" value="yes"/>
+            <property name="clean.temp" value="no"/>
 
 			<property file="mem_html5.properties"/>
         </ant>
